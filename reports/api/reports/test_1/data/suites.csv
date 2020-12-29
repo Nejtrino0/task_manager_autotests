@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Dec 23 20:33:04 MSK 2020","Wed Dec 23 20:33:05 MSK 2020","1133","tests.test_api","test_login","TestApiAuth","","","test_invalid_auth[data0]",""
-"passed","Wed Dec 23 20:33:06 MSK 2020","Wed Dec 23 20:33:12 MSK 2020","6210","tests.test_api","test_login","TestApiAuth","","","test_session_valid_auth",""
-"passed","Wed Dec 23 20:33:05 MSK 2020","Wed Dec 23 20:33:06 MSK 2020","1142","tests.test_api","test_login","TestApiAuth","","","test_response_is_ok[data0]",""
-"passed","Wed Dec 23 20:33:03 MSK 2020","Wed Dec 23 20:33:04 MSK 2020","1176","tests.test_api","test_login","TestApiAuth","","","test_valid_auth[data0]",""

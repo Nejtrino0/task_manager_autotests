@@ -1,0 +1,6 @@
+venv
+.idea
+__pycache__
+*.json
+/reports/api/
+/reports/ui/
