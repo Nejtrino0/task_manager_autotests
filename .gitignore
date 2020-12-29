@@ -5,5 +5,3 @@ __pycache__
 *.html
 *.log
 *.h2.db
-/reports/api/
-/reports/ui/
