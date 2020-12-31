@@ -13,6 +13,7 @@ settings.default_search_type = By.CSS_SELECTOR
 @pytest.fixture
 def driver(request):
     _driver = webdriver.Chrome()
+    _driver.maximize_window()
 
     yield request.param(
         driver=_driver,
