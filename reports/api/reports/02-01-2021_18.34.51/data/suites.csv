@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jan 02 18:34:48 MSK 2021","Sat Jan 02 18:34:49 MSK 2021","1353","tests.test_ui","test_login_page","TestLoginPage","","","test_invalid_credentials[LoginPage]",""
