@@ -1,8 +1,13 @@
+import allure
 import pytest
 from base.ui.login_page.page_login import LoginPage
 from utils.api.utils import email
 
 
+@allure.severity(allure.severity_level.CRITICAL)
+@allure.feature('Тестируем страницу логина')
+@allure.story('UI тесты')
+@allure.link('https://task-manager-3031.herokuapp.com/', name='Документация')
 @pytest.mark.login_page
 @pytest.mark.parametrize('driver', [LoginPage], indirect=['driver', ])
 class TestLoginPage:
@@ -27,3 +32,4 @@ class TestLoginPage:
         driver.click_login_button()
         assert driver.get_title == 'Task Manager | Авторизация', \
             'Ошибка. Получилось залогиниться с пустыми полями имя пользователя и пароль'
+
